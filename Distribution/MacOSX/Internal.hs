@@ -27,7 +27,7 @@ import Distribution.Text (display)
 import Distribution.Types.UnqualComponentName (unUnqualComponentName)
 #endif
 import Prelude hiding ( catch )
-import System.Cmd ( system )
+import System.Process ( system )
 import System.Exit
 import System.FilePath
 import Control.Monad (filterM)

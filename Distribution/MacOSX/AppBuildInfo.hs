@@ -1,7 +1,7 @@
 -- | Information used to help create an application bundle
 module Distribution.MacOSX.AppBuildInfo where
 
-import Distribution.Simple.LocalBuildInfo (LocalBuildInfo(..))
+import Distribution.Simple.LocalBuildInfo (LocalBuildInfo(..), buildDir)
 import System.FilePath
 
 import Distribution.MacOSX.Common
